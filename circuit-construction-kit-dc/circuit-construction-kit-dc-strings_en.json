@@ -1,0 +1,14 @@
+{
+  "circuit-construction-kit-dc.title": {
+    "value": "Aadhya Circuit Simulation"
+  },
+  "screen.intro": {
+    "value": "Intro"
+  },
+  "screen.lab": {
+    "value": "Lab"
+  },
+  "screen.codap": {
+    "value": "CODAP"
+  }
+}

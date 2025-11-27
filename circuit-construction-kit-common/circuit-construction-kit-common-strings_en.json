@@ -1,0 +1,440 @@
+{
+  "circuit-construction-kit-common.title": {
+    "value": "Circuit Construction Kit"
+  },
+  "schematicStandard": {
+    "value": "Schematic Standard"
+  },
+  "realBulb": {
+    "value": "Real Bulb"
+  },
+  "ieee": {
+    "value": "IEEE"
+  },
+  "iec": {
+    "value": "IEC"
+  },
+  "british": {
+    "value": "British"
+  },
+  "animationSpeedLimitReached": {
+    "value": "Animation speed limit reached! Current animation speed reduced to {{percent}}% normal."
+  },
+  "acSource": {
+    "value": "AC Voltage"
+  },
+  "advanced": {
+    "value": "Advanced"
+  },
+  "resistor": {
+    "value": "Resistor"
+  },
+  "capacitor": {
+    "value": "Capacitor"
+  },
+  "inductor": {
+    "value": "Inductor"
+  },
+  "stopwatch": {
+    "value": "Stopwatch"
+  },
+  "fuse": {
+    "value": "Fuse"
+  },
+  "time": {
+    "value": "Time"
+  },
+  "oneSecond": {
+    "value": "1 s"
+  },
+  "capacitance": {
+    "value": "Capacitance"
+  },
+  "inductance": {
+    "value": "Inductance"
+  },
+  "currentRating": {
+    "value": "Current Rating"
+  },
+  "tiny": {
+    "value": "tiny"
+  },
+  "lots": {
+    "value": "lots"
+  },
+  "phaseShift": {
+    "value": "Phase Shift"
+  },
+  "coin": {
+    "value": "Coin"
+  },
+  "dollarBill": {
+    "value": "Dollar Bill"
+  },
+  "eraser": {
+    "value": "Eraser"
+  },
+  "pencil": {
+    "value": "Pencil"
+  },
+  "hand": {
+    "value": "Hand"
+  },
+  "dog": {
+    "value": "Dog"
+  },
+  "paperClip": {
+    "value": "Paper Clip"
+  },
+  "wireResistivity": {
+    "value": "Wire Resistivity"
+  },
+  "batteryResistance": {
+    "value": "Battery Resistance"
+  },
+  "sourceResistance": {
+    "value": "Source Resistance"
+  },
+  "battery": {
+    "value": "Battery"
+  },
+  "lightBulb": {
+    "value": "Light Bulb"
+  },
+  "addRealBulbs": {
+    "value": "Add Real Bulbs"
+  },
+  "switch": {
+    "value": "Switch"
+  },
+  "wire": {
+    "value": "Wire"
+  },
+  "electrons": {
+    "value": "Electrons"
+  },
+  "conventional": {
+    "value": "Conventional"
+  },
+  "tapCircuitElementToEdit": {
+    "value": "Tap circuit element to edit."
+  },
+  "current": {
+    "value": "Current"
+  },
+  "showCurrent": {
+    "value": "Show Current"
+  },
+  "resistance": {
+    "value": "Resistance"
+  },
+  "voltage": {
+    "value": "Voltage"
+  },
+  "voltageWithUnits": {
+    "value": "Voltage (V)"
+  },
+  "voltageChart": {
+    "value": "Voltage Chart"
+  },
+  "currentWithUnits": {
+    "value": "Current (A)"
+  },
+  "currentChart": {
+    "value": "Current Chart"
+  },
+  "frequency": {
+    "value": "Frequency"
+  },
+  "voltmeter": {
+    "value": "Voltmeter"
+  },
+  "ammeter": {
+    "value": "Ammeter"
+  },
+  "ammeters": {
+    "value": "Ammeters"
+  },
+  "labels": {
+    "value": "Labels"
+  },
+  "values": {
+    "value": "Values"
+  },
+  "ohms": {
+    "value": "ohms"
+  },
+  "voltageUnits": {
+    "value": "{{voltage}} V"
+  },
+  "voltageVoltsValuePattern": {
+    "value": "{{voltage}} volts"
+  },
+  "frequencyHzValuePattern": {
+    "value": "{{frequency}} Hz"
+  },
+  "currentUnits": {
+    "value": "{{current}} A"
+  },
+  "capacitanceUnits": {
+    "value": "{{capacitance}} F"
+  },
+  "inductanceUnits": {
+    "value": "{{inductance}} H"
+  },
+  "fuseValue": {
+    "value": "{{resistance}} mΩ<br><span style=\"font-size: 16px;\">≤ {{currentRating}} A</span>"
+  },
+  "resistanceOhmsSymbol": {
+    "value": "{{resistance}} Ω"
+  },
+  "capacitanceFaradsSymbol": {
+    "value": "{{resistance}} F"
+  },
+  "inductanceHenriesSymbol": {
+    "value": "{{resistance}} H"
+  },
+  "resistanceOhmsValuePattern": {
+    "value": "{{resistance}} ohms"
+  },
+  "theSwitchIsClosed": {
+    "value": "The switch is closed."
+  },
+  "theSwitchIsOpen": {
+    "value": "The switch is open."
+  },
+  "ammeterReadout": {
+    "value": "Ammeter Readout"
+  },
+  "magnitude": {
+    "value": "Magnitude"
+  },
+  "signed": {
+    "value": "Signed"
+  },
+  "dataOutOfRange": {
+    "value": "Data out of range"
+  },
+  "a11y": {
+    "screenSummary": {
+      "playArea": {
+        "value": "There is a toolbox of circuit elements on the left, and a construction area in the center, where\n  you can connect circuit elements to form a circuit. On the right, there is another toolbox with \n  sensors you can \n  use to measure properties like voltage and current."
+      },
+      "controlArea": {
+        "value": "{ $advancedControls ->\n  [present] Show the current as the flow of electrons or conventional current. Show labels or values on circuit \n              elements. Additionally, change wire resistivity, battery internal resistance, or add real light bulbs \n              to the circuit element toolbox.\n  *[absent] Show the current as the flow of electrons or conventional current. Show labels or values on circuit elements.\n}"
+      },
+      "currentDetails": {
+        "value": "Currently, no circuit elements are in the construction area."
+      },
+      "interactionHint": {
+        "value": "Add circuit elements to the construction area, and connect them to begin. Note, you must include at least one Wire in order to connect a circuit."
+      }
+    },
+    "constructionArea": {
+      "accessibleHeading": {
+        "value": "Construction Area"
+      }
+    },
+    "vertexInteraction": {
+      "noNewAttachment": {
+        "value": "No new attachment"
+      }
+    },
+    "circuitContextResponses": {
+      "vertexDefaultLabel": {
+        "value": "vertex { $index }"
+      },
+      "connectedElements": {
+        "value": "Connected: { $elements }."
+      },
+      "vertexSplit": {
+        "value": "{ $connectionCount ->\n  [one] { $vertexName } split into one new connection.\n  *[other] { $vertexName } split into { $connectionCount } new connections.\n}"
+      },
+      "currentChangedSingle": {
+        "value": "Current changed to { $current } amps."
+      },
+      "currentMultiple": {
+        "value": "Currents flowing at different speeds."
+      },
+      "currentStopped": {
+        "value": "Current stopped flowing."
+      },
+      "elementRemoved": {
+        "value": "{ $elementName } removed."
+      },
+      "lightBulbState": {
+        "value": "{ $state ->\n  [off] { $elementName } is now off.\n  [dim] { $elementName } glows dimly.\n  [steady] { $elementName } glows steadily.\n  *[bright] { $elementName } shines brightly.\n}"
+      },
+      "componentValueChange": {
+        "value": "{ $type ->\n  [battery] { $elementName } voltage changed from { $oldValue } to { $newValue } volts.\n  [resistor] { $elementName } resistance changed from { $oldValue } to { $newValue } ohms.\n  *[lightBulb] { $elementName } resistance changed from { $oldValue } to { $newValue } ohms.\n}"
+      }
+    },
+    "sensorToolbox": {
+      "accessibleHeading": {
+        "value": "Sensor Toolbox"
+      }
+    },
+    "circuitElementToolbox": {
+      "accessibleHeading": {
+        "value": "Circuit Element Toolbox"
+      },
+      "accessibleHelpText": {
+        "value": "Grab a circuit element to create it in the construction area."
+      }
+    },
+    "advancedAccordionBox": {
+      "accessibleName": {
+        "value": "Advanced Settings"
+      },
+      "addRealBulbsCheckbox": {
+        "accessibleContextResponseChecked": {
+          "value": "Real light bulbs added to circuit element toolbox."
+        },
+        "accessibleContextResponseUnchecked": {
+          "value": "Real light bulbs removed from circuit element toolbox."
+        }
+      }
+    },
+    "displayOptionsPanel": {
+      "accessibleHeading": {
+        "value": "Display Options"
+      },
+      "showCurrentCheckbox": {
+        "accessibleContextResponseChecked": {
+          "value": "{ $currentType ->\n  [electrons] Electron flow shown in circuit.\n  *[conventional] Conventional current arrows shown in circuit.\n}"
+        },
+        "accessibleContextResponseUnchecked": {
+          "value": "{ $currentType ->\n  [electrons] Electron flow hidden in circuit.\n  *[conventional] Conventional current arrows hidden in circuit.\n}"
+        }
+      },
+      "currentTypeRadioButtonGroup": {
+        "electronsRadioButton": {
+          "accessibleContextResponse": {
+            "value": "Current animation shows electrons moving through the circuit."
+          }
+        },
+        "conventionalRadioButton": {
+          "accessibleContextResponse": {
+            "value": "Current animation shows conventional current arrows."
+          }
+        }
+      },
+      "labelsCheckbox": {
+        "accessibleContextResponseChecked": {
+          "value": "Toolbox labels shown under circuit elements."
+        },
+        "accessibleContextResponseUnchecked": {
+          "value": "Toolbox labels hidden under circuit elements."
+        }
+      },
+      "valuesCheckbox": {
+        "accessibleContextResponseChecked": {
+          "value": "Circuit element values shown on each component."
+        },
+        "accessibleContextResponseUnchecked": {
+          "value": "Circuit element values hidden on circuit elements."
+        }
+      }
+    },
+    "viewRadioButtonGroup": {
+      "accessibleHeading": {
+        "value": "View Type"
+      },
+      "accessibleName": {
+        "value": "View Type Selection"
+      },
+      "accessibleHelpText": {
+        "value": "Select the view type for circuit elements"
+      },
+      "lifelikeRadioButton": {
+        "accessibleName": {
+          "value": "Lifelike View"
+        },
+        "accessibleHelpText": {
+          "value": "Show the circuit elements like they would look in real life."
+        },
+        "accessibleContextResponse": {
+          "value": "Circuit elements displayed with lifelike appearance."
+        }
+      },
+      "schematicRadioButton": {
+        "accessibleName": {
+          "value": "Schematic View"
+        },
+        "accessibleHelpText": {
+          "value": "Show the circuit elements like they would look in a schematic circuit diagram."
+        },
+        "accessibleContextResponse": {
+          "value": "Circuit elements displayed with schematic symbols."
+        }
+      }
+    },
+    "circuitElementToolNode": {
+      "accessibleHelpText": {
+        "value": "Drag this tool to the circuit to create a new { a11y_circuitElement_accessibleName }."
+      }
+    },
+    "reverseBatteryButton": {
+      "accessibleName": {
+        "value": "Reverse Battery Direction"
+      }
+    },
+    "trashButton": {
+      "accessibleName": {
+        "value": "Delete { a11y_circuitElement_accessibleName }"
+      }
+    },
+    "circuitElement": {
+      "accessibleName": {
+        "value": "{ $type ->\n  [resistor] { $displayMode ->\n               [name] Resistor\n               [value] Resistor, { $resistance } ohms\n               [count] Resistor { $position } of { $total }\n               *[countAndValue] Resistor { $position } of { $total }, { $resistance } ohms\n             }\n  [battery] { $displayMode ->\n              [name] Battery\n              [value] Battery, { $voltage } volts\n              [count] Battery { $position } of { $total }\n              *[countAndValue] Battery { $position } of { $total }, { $voltage } volts\n            }\n  [lightBulb] { $displayMode ->\n                [name] Light Bulb\n                [value] Light Bulb, { $resistance } ohms\n                [count] Light Bulb { $position } of { $total }\n                *[countAndValue] Light Bulb { $position } of { $total }, { $resistance } ohms\n              }\n  [capacitor] { $displayMode ->\n                [name] Capacitor\n                [value] Capacitor, { $capacitance } farads\n                [count] Capacitor { $position } of { $total }\n                *[countAndValue] Capacitor { $position } of { $total }, { $capacitance } farads\n              }\n  [inductor] { $displayMode ->\n               [name] Inductor\n               [value] Inductor, { $inductance } henries\n               [count] Inductor { $position } of { $total }\n               *[countAndValue] Inductor { $position } of { $total }, { $inductance } henries\n             }\n  [acSource] { $displayMode ->\n               [name] AC Voltage Source\n               [value] AC Voltage Source, { $voltage } volts\n               [count] AC Voltage Source { $position } of { $total }\n               *[countAndValue] AC Voltage Source { $position } of { $total }, { $voltage } volts\n             }\n  [fuse] { $displayMode ->\n           [name] Fuse\n           [value] Fuse, { $resistance } milliohms ≤ currentRating amps\n           [count] Fuse { $position } of { $total }\n           *[countAndValue] Fuse { $position } of { $total }, { $resistance } milliohms ≤ currentRating amps\n         }\n  [switch] { $displayMode ->\n             [name] { $switchState ->\n                      [closed] Switch, closed\n                      *[open] Switch, open\n                    }\n             [value] { $switchState ->\n                       [closed] Switch, closed\n                       *[open] Switch, open\n                     }\n             [count] { $switchState ->\n                       [closed] Switch { $position } of { $total }, closed\n                       *[open] Switch { $position } of { $total }, open\n                     }\n             *[countAndValue] { $switchState ->\n                                [closed] Switch { $position } of { $total }, closed\n                                *[open] Switch { $position } of { $total }, open\n                              }\n           }\n  [voltmeter] { $hasPosition ->\n                [true] Voltmeter { $position } of { $total }\n                *[false] Voltmeter\n              }\n  [ammeter] { $hasPosition ->\n              [true] Ammeter { $position } of { $total }\n              *[false] Ammeter\n            }\n  [stopwatch] { $hasPosition ->\n                [true] Stopwatch { $position } of { $total }\n                *[false] Stopwatch\n              }\n  [wire] { $hasPosition ->\n           [true] Wire { $position } of { $total }\n           *[false] Wire\n         }\n  *[false] { $hasPosition ->\n             [true] Wire { $position } of { $total }\n             *[false] Wire\n           }\n}"
+      },
+      "accessibleHelpText": {
+        "value": "{ $type ->\n  *[switch] { $switchState ->\n              [closed] This switch is closed. Press Space or Enter to open the switch.\n              *[open] This switch is open. Press Space or Enter to close the switch.\n            }\n}"
+      }
+    },
+    "keyboardHelpDialog": {
+      "addElements": {
+        "heading": {
+          "value": "Add Circuit Elements"
+        },
+        "createElement": {
+          "label": {
+            "value": "Add focused tool to construction area"
+          },
+          "labelInnerContent": {
+            "value": "Press Space or Enter to drop the selected component into the circuit."
+          }
+        }
+      },
+      "connectElements": {
+        "heading": {
+          "value": "Connect Elements"
+        },
+        "grabJunction": {
+          "label": {
+            "value": "Grab highlighted junction"
+          },
+          "labelInnerContent": {
+            "value": "Press Space or Enter to begin connecting from the focused junction."
+          }
+        },
+        "selectTarget": {
+          "label": {
+            "value": "Move grabbed junction"
+          },
+          "labelInnerContent": {
+            "value": "Use arrow keys to move grabbed junction to different attachment choices."
+          }
+        },
+        "attachJunction": {
+          "label": {
+            "value": "Attach junctions"
+          },
+          "labelInnerContent": {
+            "value": "Press Space or Enter again to complete the connection, or to detach."
+          }
+        }
+      }
+    }
+  }
+}

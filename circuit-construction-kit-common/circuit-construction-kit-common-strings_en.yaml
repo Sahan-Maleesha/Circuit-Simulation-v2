@@ -1,0 +1,275 @@
+circuit-construction-kit-common.title: Circuit Construction Kit
+schematicStandard:                     Schematic Standard
+realBulb:                              Real Bulb
+ieee:                                  IEEE
+iec:                                   IEC
+british:                               British
+animationSpeedLimitReached:            >-
+                                       Animation speed limit reached! Current animation speed reduced to {{percent}}%
+                                       normal.
+acSource:                              AC Voltage
+advanced:                              Advanced
+resistor:                              Resistor
+capacitor:                             Capacitor
+inductor:                              Inductor
+stopwatch:                             Stopwatch
+fuse:                                  Fuse
+time:                                  Time
+oneSecond:                             1 s
+capacitance:                           Capacitance
+inductance:                            Inductance
+currentRating:                         Current Rating
+tiny:                                  tiny
+lots:                                  lots
+phaseShift:                            Phase Shift
+coin:                                  Coin
+dollarBill:                            Dollar Bill
+eraser:                                Eraser
+pencil:                                Pencil
+hand:                                  Hand
+dog:                                   Dog
+paperClip:                             Paper Clip
+wireResistivity:                       Wire Resistivity
+batteryResistance:                     Battery Resistance
+sourceResistance:                      Source Resistance
+battery:                               Battery
+lightBulb:                             Light Bulb
+addRealBulbs:                          Add Real Bulbs
+switch:                                Switch
+wire:                                  Wire
+electrons:                             Electrons
+conventional:                          Conventional
+tapCircuitElementToEdit:               Tap circuit element to edit.
+current:                               Current
+showCurrent:                           Show Current
+resistance:                            Resistance
+voltage:                               Voltage
+voltageWithUnits:                      Voltage (V)
+voltageChart:                          Voltage Chart
+currentWithUnits:                      Current (A)
+currentChart:                          Current Chart
+frequency:                             Frequency
+voltmeter:                             Voltmeter
+ammeter:                               Ammeter
+ammeters:                              Ammeters
+labels:                                Labels
+values:                                Values
+ohms:                                  ohms
+voltageUnits:                          '{{voltage}} V'
+voltageVoltsValuePattern:              '{{voltage}} volts'
+frequencyHzValuePattern:               '{{frequency}} Hz'
+currentUnits:                          '{{current}} A'
+capacitanceUnits:                      '{{capacitance}} F'
+inductanceUnits:                       '{{inductance}} H'
+fuseValue:                             >-
+                                       {{resistance}} mΩ<br><span style="font-size: 16px;">≤ {{currentRating}}
+                                       A</span>
+resistanceOhmsSymbol:                  '{{resistance}} Ω'
+capacitanceFaradsSymbol:               '{{resistance}} F'
+inductanceHenriesSymbol:               '{{resistance}} H'
+resistanceOhmsValuePattern:            '{{resistance}} ohms'
+theSwitchIsClosed:                     The switch is closed.
+theSwitchIsOpen:                       The switch is open.
+ammeterReadout:                        Ammeter Readout
+magnitude:                             Magnitude
+signed:                                Signed
+dataOutOfRange:                        Data out of range
+
+a11y:
+  screenSummary:
+    playArea:        |-
+                     There is a toolbox of circuit elements on the left, and a construction area in the center, where
+                       you can connect circuit elements to form a circuit. On the right, there is another toolbox with 
+                       sensors you can 
+                       use to measure properties like voltage and current.
+    controlArea:
+      select_advancedControls:
+        present: |-
+                 Show the current as the flow of electrons or conventional current. Show labels or values on circuit 
+                   elements. Additionally, change wire resistivity, battery internal resistance, or add real light bulbs 
+                   to the circuit element toolbox.
+        absent:  Show the current as the flow of electrons or conventional current. Show labels or values on circuit elements.
+    currentDetails:  Currently, no circuit elements are in the construction area.
+    interactionHint: Add circuit elements to the construction area, and connect them to begin. Note, you must include at least one Wire in order to connect a circuit.
+  constructionArea:
+    accessibleHeading: Construction Area
+  vertexInteraction:
+    noNewAttachment: No new attachment
+  circuitContextResponses:
+    vertexDefaultLabel:   'vertex { $index }'
+    connectedElements:    'Connected: { $elements }.'
+    vertexSplit:
+      select_connectionCount:
+        one:   '{ $vertexName } split into one new connection.'
+        other: '{ $vertexName } split into { $connectionCount } new connections.'
+    currentChangedSingle: 'Current changed to { $current } amps.'
+    currentMultiple:      'Currents flowing at different speeds.'
+    currentStopped:       'Current stopped flowing.'
+    elementRemoved:       '{ $elementName } removed.'
+    lightBulbState:
+      select_state:
+        off:    '{ $elementName } is now off.'
+        dim:    '{ $elementName } glows dimly.'
+        steady: '{ $elementName } glows steadily.'
+        bright: '{ $elementName } shines brightly.'
+    componentValueChange:
+      select_type:
+        battery:   '{ $elementName } voltage changed from { $oldValue } to { $newValue } volts.'
+        resistor:  '{ $elementName } resistance changed from { $oldValue } to { $newValue } ohms.'
+        lightBulb: '{ $elementName } resistance changed from { $oldValue } to { $newValue } ohms.'
+  sensorToolbox:
+    accessibleHeading: Sensor Toolbox
+  circuitElementToolbox:
+    accessibleHeading:  Circuit Element Toolbox
+    accessibleHelpText: Grab a circuit element to create it in the construction area.
+  advancedAccordionBox:
+    accessibleName: Advanced Settings
+    addRealBulbsCheckbox:
+      accessibleContextResponseChecked:   Real light bulbs added to circuit element toolbox.
+      accessibleContextResponseUnchecked: Real light bulbs removed from circuit element toolbox.
+  displayOptionsPanel:
+    accessibleHeading: Display Options
+    showCurrentCheckbox:
+      accessibleContextResponseChecked:
+        select_currentType:
+          electrons:    Electron flow shown in circuit.
+          conventional: Conventional current arrows shown in circuit.
+      accessibleContextResponseUnchecked:
+        select_currentType:
+          electrons:    Electron flow hidden in circuit.
+          conventional: Conventional current arrows hidden in circuit.
+    currentTypeRadioButtonGroup:
+      electronsRadioButton:
+        accessibleContextResponse: Current animation shows electrons moving through the circuit.
+      conventionalRadioButton:
+        accessibleContextResponse: Current animation shows conventional current arrows.
+    labelsCheckbox:
+      accessibleContextResponseChecked:   Toolbox labels shown under circuit elements.
+      accessibleContextResponseUnchecked: Toolbox labels hidden under circuit elements.
+    valuesCheckbox:
+      accessibleContextResponseChecked:   Circuit element values shown on each component.
+      accessibleContextResponseUnchecked: Circuit element values hidden on circuit elements.
+  viewRadioButtonGroup:
+    accessibleHeading:  View Type
+    accessibleName:     View Type Selection
+    accessibleHelpText: Select the view type for circuit elements
+    lifelikeRadioButton:
+      accessibleName:            Lifelike View
+      accessibleHelpText:        Show the circuit elements like they would look in real life.
+      accessibleContextResponse: Circuit elements displayed with lifelike appearance.
+    schematicRadioButton:
+      accessibleName:            Schematic View
+      accessibleHelpText:        Show the circuit elements like they would look in a schematic circuit diagram.
+      accessibleContextResponse: Circuit elements displayed with schematic symbols.
+  circuitElementToolNode:
+    accessibleHelpText: Drag this tool to the circuit to create a new { a11y.circuitElement.accessibleName }.
+  reverseBatteryButton:
+    accessibleName: Reverse Battery Direction
+  trashButton:
+    accessibleName: Delete { a11y.circuitElement.accessibleName }
+  circuitElement:
+    accessibleName:
+      select_type:
+        resistor:
+          select_displayMode:
+            name:          Resistor
+            value:         Resistor, { $resistance } ohms
+            count:         Resistor { $position } of { $total }
+            countAndValue: Resistor { $position } of { $total }, { $resistance } ohms
+        battery:
+          select_displayMode:
+            name:          Battery
+            value:         Battery, { $voltage } volts
+            count:         Battery { $position } of { $total }
+            countAndValue: Battery { $position } of { $total }, { $voltage } volts
+        lightBulb:
+          select_displayMode:
+            name:          Light Bulb
+            value:         Light Bulb, { $resistance } ohms
+            count:         Light Bulb { $position } of { $total }
+            countAndValue: Light Bulb { $position } of { $total }, { $resistance } ohms
+        capacitor:
+          select_displayMode:
+            name:          Capacitor
+            value:         Capacitor, { $capacitance } farads
+            count:         Capacitor { $position } of { $total }
+            countAndValue: Capacitor { $position } of { $total }, { $capacitance } farads
+        inductor:
+          select_displayMode:
+            name:          Inductor
+            value:         Inductor, { $inductance } henries
+            count:         Inductor { $position } of { $total }
+            countAndValue: Inductor { $position } of { $total }, { $inductance } henries
+        acSource:
+          select_displayMode:
+            name:          AC Voltage Source
+            value:         AC Voltage Source, { $voltage } volts
+            count:         AC Voltage Source { $position } of { $total }
+            countAndValue: AC Voltage Source { $position } of { $total }, { $voltage } volts
+        fuse:
+          select_displayMode:
+            name:          Fuse
+            value:         Fuse, { $resistance } milliohms ≤ currentRating amps
+            count:         Fuse { $position } of { $total }
+            countAndValue: Fuse { $position } of { $total }, { $resistance } milliohms ≤ currentRating amps
+        switch:
+          select_displayMode:
+            name:
+              select_switchState:
+                closed: 'Switch, closed'
+                open:   'Switch, open'
+            value:
+              select_switchState:
+                closed: 'Switch, closed'
+                open:   'Switch, open'
+            count:
+              select_switchState:
+                closed: 'Switch { $position } of { $total }, closed'
+                open:   'Switch { $position } of { $total }, open'
+            countAndValue:
+              select_switchState:
+                closed: 'Switch { $position } of { $total }, closed'
+                open:   'Switch { $position } of { $total }, open'
+        voltmeter:
+          select_hasPosition:
+            true:  'Voltmeter { $position } of { $total }'
+            false: 'Voltmeter'
+        ammeter:
+          select_hasPosition:
+            true:  'Ammeter { $position } of { $total }'
+            false: 'Ammeter'
+        stopwatch:
+          select_hasPosition:
+            true:  'Stopwatch { $position } of { $total }'
+            false: 'Stopwatch'
+        wire:
+          select_hasPosition:
+            true:  'Wire { $position } of { $total }'
+            false: 'Wire'
+        false:
+          select_hasPosition:
+            true:  'Wire { $position } of { $total }'
+            false: 'Wire'
+    accessibleHelpText:
+      select_type:
+        switch:
+          select_switchState:
+            closed: 'This switch is closed. Press Space or Enter to open the switch.'
+            open:   'This switch is open. Press Space or Enter to close the switch.'
+  keyboardHelpDialog:
+    addElements:
+      heading: Add Circuit Elements
+      createElement:
+        label:             Add focused tool to construction area
+        labelInnerContent: Press Space or Enter to drop the selected component into the circuit.
+    connectElements:
+      heading: Connect Elements
+      grabJunction:
+        label:             Grab highlighted junction
+        labelInnerContent: Press Space or Enter to begin connecting from the focused junction.
+      selectTarget:
+        label:             Move grabbed junction
+        labelInnerContent: Use arrow keys to move grabbed junction to different attachment choices.
+      attachJunction:
+        label:             Attach junctions
+        labelInnerContent: Press Space or Enter again to complete the connection, or to detach.
